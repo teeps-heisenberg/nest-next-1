@@ -17,6 +17,7 @@ export class ArticleService {
             },
             include: {
                 author: true,
+                comments: true
             }
         })
     }
